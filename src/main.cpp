@@ -13,3 +13,7 @@
 int SensorPin=A0;
 int  SensorValue=0;
 
+
+void setup() {
+    Serial.begin(9600);
+}
