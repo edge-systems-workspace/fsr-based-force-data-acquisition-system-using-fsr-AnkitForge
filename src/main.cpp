@@ -19,3 +19,7 @@ void setup() {
 }
 void loop() {
     SensorValue=analogRead(SensorPin);
+    Serial.println("Pressure  value: ");
+    Serial.println(SensorValue);
+    delay(500);
+}
