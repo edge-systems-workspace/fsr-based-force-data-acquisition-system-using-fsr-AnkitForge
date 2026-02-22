@@ -17,3 +17,5 @@ int  SensorValue=0;
 void setup() {
     Serial.begin(9600);
 }
+void loop() {
+    SensorValue=analogRead(SensorPin);
