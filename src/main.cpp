@@ -10,3 +10,6 @@
  * displays structured output via Serial Monitor.
  */
 
+int SensorPin=A0;
+int  SensorValue=0;
+
